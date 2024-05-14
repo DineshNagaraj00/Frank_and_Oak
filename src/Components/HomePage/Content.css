@@ -1,0 +1,142 @@
+.content{
+    position: relative;
+    margin-top: 10px;
+}
+.content .one{
+    margin-left: 30px;
+}
+ .content .one img {
+    height: 900px;
+    width: auto;
+}
+
+.text {
+    text-align: center;
+    margin-top: -600px;
+}
+
+.text h2 {
+    color: white;
+    font-size: 40px;
+}
+
+.text h3 {
+    color: white;
+    font-size: 30px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
+    margin-left: -40px;
+    
+}
+
+ .btn button {
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    height: 50px;
+    width: 200px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold; 
+    border-radius: 10px;
+    background: none;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.feature{
+    margin-top: 450px;
+}
+.feature h1{
+    margin-left: 30px;
+}
+.feature a{
+    text-decoration: none;
+    
+    
+}
+.images  {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 20px;
+    
+}
+.first{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 25px;
+}
+.first img{
+    height: 575px;
+}
+.first p{
+    position: relative;
+    margin-left: 20px;
+    font-weight: bold;
+    color: black;
+}
+.just_in{
+    margin-top: 100px;
+}
+.words{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    margin-left: 30px;
+}
+.right{
+    margin-right: 30px;
+}
+.madeFor{
+    position: relative;
+    height: 950px;
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+}
+.top{
+    position: relative;
+    margin-top: 50px;
+}
+.top .right{
+    position: absolute;
+    width: auto;
+}
+.top .right img{
+    margin-top: 20px;
+    height: 900px;
+    margin-left: 20px;
+}
+
+.top .left h1 {
+    position: absolute;
+    top: 250px;
+    left: 1050px; /* Adjust the left position as needed */
+    font-size: 40px;
+}
+
+.top .left p {
+    position: absolute;
+    top: 320px;
+    left: 1000px; /* Adjust the left position as needed */
+    font-size: 20px;
+}
+
+.imagesOfTan {
+    display: flex; 
+    justify-content: space-between; 
+    margin-top: 400px; 
+    margin-left: 900px;
+}
+
+.imagesOfTan img {
+    height: 200px; 
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: auto; 
+    margin-left: 30px;
+    cursor: pointer;
+}

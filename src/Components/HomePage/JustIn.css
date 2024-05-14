@@ -1,0 +1,70 @@
+.just_in {
+    margin-top: 100px;
+}
+.words {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left {
+    margin-left: 30px;
+}
+.right span {
+    margin-left: 30px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.right span:hover {
+    color: red;
+    font-weight: bolder;
+}
+
+.womens {
+    display: flex;
+    justify-content:space-evenly;
+    margin-left: 25px;
+    cursor: pointer;
+    height: 700px;
+    margin-bottom: 50px;
+}
+.women{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 25px;
+    justify-content: center;
+    
+}
+.womens img{
+    height: 580px;
+    
+}
+.womens p {
+    margin-left: 20px;
+}
+.womens h4 {
+    margin-left: 20px;
+}
+.mens{
+    display: flex;
+    justify-content:space-evenly;
+    margin-left: 25px;
+    cursor: pointer;
+    height: 700px;
+    
+}
+.men{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 25px;
+    justify-content: center;
+}
+.mens img {
+    height: 580px;
+}
+
+.mens p {
+    margin-left: 20px;
+}
+.mens h4 {
+    margin-left: 20px;
+}
+

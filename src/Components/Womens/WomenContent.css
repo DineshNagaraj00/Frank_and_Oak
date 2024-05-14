@@ -1,0 +1,79 @@
+.women_content {
+    position: absolute;
+    margin-top: 100px;
+    top: 0;
+    left: 325px;
+    width: 1690px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 955px;
+    overflow-y: auto;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    margin-top: 10px;
+    width: 100%;
+    overflow-x: auto;
+}
+
+
+
+.products h1 {
+    margin-left: 30px;
+}
+
+.products a {
+    text-decoration: none;  
+}
+
+.products_image {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+.picture{
+    height: 400px;
+    width: 340px;
+    padding: 10px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+}
+.second{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 580px;
+    padding: 10px;
+}
+
+.second img {
+    height: 450px;
+}
+
+.second p {
+    position: relative;
+    margin-left: 20px;
+    font-weight: bold;
+    color: black;
+}
+.btns{
+    display: grid;
+    place-items: center;
+}
+.btns > button {
+    
+    height: 30px;
+    width: 200px;
+    background-color: black;
+    color: #f9f9f9;
+    font-size: 15px;
+}
+
+.second button:hover {
+    background-color: cadetblue;
+}

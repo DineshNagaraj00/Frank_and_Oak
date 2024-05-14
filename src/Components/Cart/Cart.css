@@ -1,0 +1,132 @@
+.cart{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 1118px;
+    background-color: #00000090;
+    display: flex;
+    justify-content: end;
+}
+.cart_container{
+    height: 100%;
+    width: 600px;
+    background-color: aliceblue;
+    align-items: end;
+}
+.cart_title{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.cart_title p{
+    margin-left: 10px;
+}
+.cart_title a{
+    margin-top: 6px;
+}
+.cart_blackBox{
+    height: 30px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart_blackBox p{
+    font-size: 12px;
+}
+.cartItems {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+  
+.imag {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.imag img {
+    width: 100px;
+    height: 100px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+.imag svg{
+  margin-left: 100px;
+  cursor: pointer;
+}
+.imag h4{
+  position: absolute;
+  right: 390px;
+  margin-top: 50px;
+}
+.counter{
+  position: absolute;
+  display: flex;
+  margin-left: 500px;
+  margin-top: 70px;
+}
+.counter button{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  height: 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.counter button:hover {
+    background-color: tomato;
+}
+.quantity h5{
+  font-size: 24px;
+  margin-top: 10px;
+}
+.buyNow{
+    position: sticky;
+    margin-top: 685px;
+    height: 200px;
+    width: 570px;
+    background-color: #4CAF50;
+    padding: 15px;
+}
+.buyHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.leftSection {
+  display: flex;
+  align-items: center;
+}
+.leftSection h4{
+    margin-left: 10px;
+}
+
+.rightSection {
+  margin-left: auto;
+  margin-right: 30px;
+}
+.check {
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.check button{
+    width: 300px;
+}
+.check svg{
+    margin-left: 15px;
+}
+  
+
+  
